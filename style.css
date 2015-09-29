@@ -1,0 +1,90 @@
+#heading{
+	margin: auto;
+    width: 100%;
+    padding: 2%;
+	margin-left:0;
+	z-index:3;
+	position:relative;
+}
+h1{
+	text-align:center;
+	font-size:40;
+}
+
+#h{
+	text-align:center; 
+	text-decoration: none;
+	font-family:Comic Sans MS;
+	font-weight:bold;
+	color:#F00000;	
+}
+h3{
+	color:#00FF00;
+	text-align:right;
+}
+#book{
+	color:#00FF00;}
+#M{
+	list-style-type:none;
+	margin-left:0%;
+	width:100%;
+    padding: 0%;
+	overflow: hidden;
+	text-align:center;
+	z-index:3;
+}
+.mainmenu{
+	float:left;
+	width:20%;
+	text-align:center;
+}
+.anch_menu:link, .anch_menu:visited {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #000033;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+	padding-top:5%;
+	padding-bottom:5%;
+	z-index:3;
+}
+
+.anch_menu:hover, .anch_menu:active {
+    background-color: #3366CC;
+	z-index:4;
+}
+.sub{
+	list-style-type:none;
+	display:none;
+	z-index:4;
+	position:absolute;
+	width:20%;
+	padding-right:0%;
+	padding-left:0%;
+}
+
+
+.submenu{
+	text-align:center;
+	z-index:4;
+	padding-right:0%;
+	padding-left:0%;
+}
+#hov1:hover > ul{
+	display:block;
+}
+#hov2:hover > ul{
+	display:block;
+}
+#hov3:hover > ul{
+	display:block;
+}
+#hov4:hover > ul{
+	display:block;
+}
+#hov5:hover > ul{
+	display:block;
+}
